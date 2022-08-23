@@ -1,5 +1,18 @@
 [
   {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "memberName",
+        "type": "string"
+      }
+    ],
+    "name": "joinParty",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
     "anonymous": false,
     "inputs": [
       {
@@ -17,19 +30,6 @@
     ],
     "name": "PartyMember",
     "type": "event"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "string",
-        "name": "memberName",
-        "type": "string"
-      }
-    ],
-    "name": "joinParty",
-    "outputs": [],
-    "stateMutability": "payable",
-    "type": "function"
   },
   {
     "inputs": [
